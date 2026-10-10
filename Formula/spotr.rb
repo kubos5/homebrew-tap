@@ -1,5 +1,5 @@
 class Spotr < Formula
-  desc "Keyboard-first Spotify client for the terminal"
+  desc "A better Spotify client, for the terminal."
   homepage "https://github.com/kubos5/spotr"
   url "https://github.com/kubos5/spotr/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "76157cb370e2e7f2199bed262aa110c2d8dc02669a39d04b804c8bb624c57feb"
