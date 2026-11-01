@@ -1,25 +1,25 @@
 class Spotr < Formula
   desc "Spotr: A better Spotify client, for the terminal"
   homepage "https://github.com/kubos5/spotr"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kubos5/spotr/releases/download/v0.1.2/spotr-aarch64-apple-darwin.tar.xz"
-      sha256 "354c8256f1a362a416f1a8ccaf380ddac2d719724b51b0c887fbdd7b28513430"
+      url "https://github.com/kubos5/spotr/releases/download/v0.1.3/spotr-aarch64-apple-darwin.tar.xz"
+      sha256 "6e2390a17727ad5afc496848fa0442e956cbcdc90d2b220aabe7f4c3c61f7721"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kubos5/spotr/releases/download/v0.1.2/spotr-x86_64-apple-darwin.tar.xz"
-      sha256 "3063eefcc1b1006f9551e0cf9f30d8c35ebe0c767f8d0379132e11b4a167dc17"
+      url "https://github.com/kubos5/spotr/releases/download/v0.1.3/spotr-x86_64-apple-darwin.tar.xz"
+      sha256 "a20739bf85584abae1e35d1d232839bc5fda9518f15ab154160c54662d3fcba2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kubos5/spotr/releases/download/v0.1.2/spotr-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "833ac08206d45ec6a6cbf5c9a00460ee11b843535c9f448e3a97ed84d0cd07f1"
+      url "https://github.com/kubos5/spotr/releases/download/v0.1.3/spotr-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a2f35f6cfaf95804c2bd2a3b5f04af010165204d79887799416303b8af8989d1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kubos5/spotr/releases/download/v0.1.2/spotr-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "633f26b3f7d0eb56ed81f102a8e8fd249705ff51fab9821b5fa426786c630618"
+      url "https://github.com/kubos5/spotr/releases/download/v0.1.3/spotr-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2eb193902f7bd79f6ea7be4a25ba4e45a5853fc1ad29914d6ffe39c01ad4da8f"
     end
   end
   license "GPL-3.0-or-later"
